@@ -7,8 +7,6 @@ import ComputerScienceCourseImg from '../../utils/images/computer-science-course
 import EducationCourseImg from '../../utils/images/education-course.jpg';
 import HealthcareCourseImg from '../../utils/images/healthcare-course.jpg';
 import LawCourseImg from '../../utils/images/law-course.jpg';
-import MusicCourseImg from '../../utils/images/music-course.jpg';
-import SportCourseImg from '../../utils/images/sport-course.jpg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 
 const courses = [

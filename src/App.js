@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import { Link, Routes, Route } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faSquareFacebook, faSquareInstagram, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -18,13 +17,6 @@ import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
-  const [newDate, setNewDate] = useState('');
-  useEffect(() => {
-    let todayDate = new Date();
-    let todayYear = todayDate.getFullYear();
-    setNewDate([todayYear])
-  }, []);
- 
   return (
     <div>
       <Navbar expand="lg" className='position-absolute w-100'>
