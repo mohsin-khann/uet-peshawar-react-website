@@ -33,7 +33,8 @@ const blogs = [
 function Home() {
   return (
     <div className='home-page'>
-        <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
+        <header className='min-vh-100 d-flex align-items-center text-light'>
+
             <div className='container d-flex flex-column align-items-center'>
                 <h1 className='text-center fw-semibold'>
                   University of <br /> Engineering and Technology Peshawar

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from "react";
 import './App.css';
 import { Link, Routes, Route } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -17,9 +17,12 @@ import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <div>
-      <Navbar expand="lg" className='position-absolute w-100'>
+      <Navbar expand="lg" expanded={expanded} className='position-absolute w-100'>
+
         <Container>
           <Navbar.Brand>
             <Link to="/" className='navbar-brand d-flex align-items-center' style={{color: "#dc3545"}}>
@@ -32,14 +35,24 @@ function App() {
               </span>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' className='bg-light' />
+          <Navbar.Toggle
+  aria-controls='basic-navbar-nav'
+  className='bg-light'
+  onClick={() => setExpanded(expanded ? false : "expanded")}
+/>
+
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
-              <Link to='/' className='nav-link text-uppercase'>Home</Link>
-              <Link to='/courses' className='nav-link text-uppercase'>Our courses</Link>
-              <Link to='/about' className='nav-link text-uppercase'>About us</Link>
-              <Link to='/blog' className='nav-link text-uppercase'>Blog</Link>
-              <Link to='/contact' className='nav-link text-uppercase'>Get in touch</Link>
+              <Link to='/' className='nav-link text-uppercase' onClick={() => setExpanded(false)}>Home</Link>
+
+<Link to='/courses' className='nav-link text-uppercase' onClick={() => setExpanded(false)}>Our courses</Link>
+
+<Link to='/about' className='nav-link text-uppercase' onClick={() => setExpanded(false)}>About us</Link>
+
+<Link to='/blog' className='nav-link text-uppercase' onClick={() => setExpanded(false)}>Blog</Link>
+
+<Link to='/contact' className='nav-link text-uppercase' onClick={() => setExpanded(false)}>Get in touch</Link>
+
             </Nav>
           </Navbar.Collapse>
         </Container>
