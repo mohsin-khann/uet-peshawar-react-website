@@ -44,12 +44,61 @@ img, video, iframe {
 
 @media (max-width: 480px) {
   .navbar-brand {
-    font-size: 13px !important;
-    padding-left: 5px !important;
+    font-size: 11px !important;
+    padding-left: 0px !important;
   }
 }
 
 .navbar-toggler-icon {
-  width: 21px !important;
-  height: 21px !important;
+  width: 17px !important;
+  height: 17px !important;
+}
+/* FIX NAVBAR SCROLL ISSUE */
+nav.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+}
+nav.navbar {
+  background: #0b1c2d !important; /* dark navy professional color */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+/* Make feature sections look professional */
+.section, .feature, .card-like {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Improve headings */
+h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+/* NAVBAR COLOR MATCH */
+nav.navbar {
+  background: #0a1b2f !important;
+}
+
+/* HERO IMAGE DARK OVERLAY */
+.hero::before,
+.banner::before,
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 27, 47, 0.65);
+  z-index: 1;
+}
+
+/* HERO CONTENT ABOVE OVERLAY */
+.hero *,
+.banner *,
+.header * {
+  position: relative;
+  z-index: 2;
 }
