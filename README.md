@@ -1,16 +1,48 @@
-# University of Arts & Technology
+# 🎓 UET Website (React Project)
 
-## Description
-A fully responsive university website template developed using [React JS](https://react.dev/) and [React Bootstrap](https://react-bootstrap.netlify.app/). Featuring five core pages—Home, About, Courses, Blog, and Contact—this project demonstrates clean routing, consistent layout styling, and reusable components such as accordions. Ideal for educational platforms, it showcases a modular React structure ready for expansion into full-featured applications.
+A responsive university website built using React.js as a practice project for my university and personal portfolio.  
+The project focuses on improving frontend development skills, UI layout, and component-based design.
 
-## View live website: https://ionut-cora.github.io/react-university-website/
+---
 
-## Dependencies
-- [React JS](https://react.dev/) - JavaScript library
-- [React Bootstrap](https://react-bootstrap.netlify.app/) - Front-End Framework for React
-- [Font Awesome](https://fontawesome.com/) - Icon library
-- [Unsplash](https://unsplash.com/) - Free images
-- [Google Fonts](https://fonts.google.com/) - Montserrat Family Font
+## ✨ About the Project
+
+This project is a modern uet university website that includes multiple pages and sections to simulate a real educational institution website.  
+It was created to practice building real-world UI using React and improve overall frontend development workflow.
+
+---
+
+## 🛠️ Built With
+
+- JavaScript (ES6+)
+- React.js
+- React Hooks
+- React Router
+- Bootstrap
+- HTML5 & CSS3
+
+---
+
+## 🚀 Features
+
+- Responsive layout for mobile, tablet, and desktop
+- Reusable React components
+- Multi-page navigation using React Router
+- Clean UI structure suitable for university websites
+- Modern layout with sections for courses, departments, and information
+
+---
+
+## 🎯 Purpose of This Project
+
+This project was built to:
+- Practice React.js development  
+- Improve component-based architecture  
+- Strengthen frontend skills  
+- Build portfolio-ready projects  
+- Simulate real-world website structure  
+
+---
 
 ## Pages
 - Home
@@ -19,25 +51,23 @@ A fully responsive university website template developed using [React JS](https:
 - Blog
 - Contact
 
-## Components
-- `FaqAccordion`
-- `ChooseSection`
 
-## Features
-- Responsive layout
-- Component-based structure
-- Client-side routing (React Router)
-- Clean and accessible UI
 
-<img src="arts_tech_university.jpg" alt="React JS University of Arts & Technology" />
+## 🌐 Live Demo
 
-## Installation
-```bash
-git clone https://github.com/Ionut-Cora/react-university-website
-cd react-university-website
-npm install
-npm start
-```
-[http://localhost:3000](http://localhost:3000) - open in your browser to see the project
+https://mohsin-uet-react-website.vercel.app/
+---
 
-Created by [Ionut Cora](https://www.ionutcora.com/)
+## 👤 Author
+
+**Mohsin Khan**  
+Full Stack Developer 
+University & Portfolio Project  
+
+---
+
+## 📬 Contact
+
+Email: mohsin.codes1@gmail.com  
+Location: peshawar, pakistan  
+
